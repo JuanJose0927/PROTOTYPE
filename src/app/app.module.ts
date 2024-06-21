@@ -10,6 +10,8 @@ import { RegisterComponent } from './auth/register/register.component';
 import { BookingComponent } from './pages/booking/booking.component';
 import { FlightStatusComponent } from './pages/flight-status/flight-status.component';
 import { HomeComponent } from './pages/home/home.component';
+import { TableComponent } from './pages/home/table/table.component';
+import { SearchDestinyComponent } from './pages/home/search-destiny/search-destiny.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { HomeComponent } from './pages/home/home.component';
     RegisterComponent,
     BookingComponent,
     FlightStatusComponent,
-    HomeComponent
+    HomeComponent,
+    TableComponent,
+    SearchDestinyComponent
   ],
   imports: [
     BrowserModule,
